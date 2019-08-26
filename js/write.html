@@ -5,11 +5,12 @@
   </head>
   <body>
     <p>Using the development console. Press [f12] and click the console tab.</p>
-		<script>
-      var num1 =  35;
-      var num2 = 7;
-      var result = num1 + num2;
-      console.log(result);
-		</script>
+    <div id="MyText">Hello World</div>
+    <div id="NewText"></div>
+    <script>
+      var msg = 'Hello World';
+
+        document.getElementById('NewText').innerHTML = msg;
+	</script>
   </body>
 </html>
